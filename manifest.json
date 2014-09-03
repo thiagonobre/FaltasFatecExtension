@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Faltas Fatec",
+  "description": "Extensão para ajudar os professores a fazer a chamada",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "jquery-1.11.1.min.js", 
+        "background.js"
+      ],
+      "matches": [ "https://www.sigacentropaulasouza.com.br/*", "http://www.sigacentropaulasouza.com.br/*"]
+    }
+  ]
+}
