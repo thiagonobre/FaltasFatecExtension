@@ -1,3 +1,5 @@
-$(function(){
-    console.log('Faltas Fatec');
-});
+(function ($) {
+    $(function(){
+        console.log('Faltas Fatec');
+    });
+})(jQuery);
