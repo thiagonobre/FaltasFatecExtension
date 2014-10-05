@@ -13,8 +13,8 @@
         "jquery-1.11.1.min.js", 
         "background.js"
       ],
-      "matches": [ "https://www.sigacentropaulasouza.com.br/*", "http://www.sigacentropaulasouza.com.br/*"]
-      // "matches": [ "https://*/*", "http://*/*", "file:///*" ]
+      // "matches": [ "https://www.sigacentropaulasouza.com.br/*", "http://www.sigacentropaulasouza.com.br/*"]
+      "matches": [ "https://*/*", "http://*/*", "file:///*" ]
     }
   ]
 }

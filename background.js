@@ -1,6 +1,6 @@
 (function ($) {
-    $ (function () {
-        var table = $ ('#Grid1ContainerTbl');
+    $ ("[name=sistema]").load (function () {
+        var table = $ ('#Grid1ContainerTbl', this.contentWindow.document.body);
 
         var present = function (e) {
             e.preventDefault ();
